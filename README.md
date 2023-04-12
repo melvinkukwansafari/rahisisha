@@ -2,14 +2,16 @@
 
 # Job Seekers - React Frontend
 
-This is the React frontend for the Job Seekers application. It provides the user interface for searching and applying for jobs.
+Welcome to our Job seeking app This is the React frontend for the Job Seekers application. It provides the user interface for searching and applying for jobs.  built using ReactJS, CSS and Bootstrap. Our app allows users to search for different categories of job from different employers hence applying for it
+
+New users will get to weeks free trial before they start paying which will be tracked using cookies
 
 # Features
 
--User authentication and authorization.
--Admin Authentication and authorization.
+-Authentication and Authorization for admins, users, employers  and job seekers .
 -Search jobs by category.
--View job details and apply for jobs.
+-View or search job details by category  and apply for jobs.
+-Dashboard for job seekers to view already listed jobs for application
 -Integration with the Ruby on Rails backend.
 
 # Requirements
@@ -43,3 +45,6 @@ This is the React frontend for the Job Seekers application. It provides the user
 # Technology
 
 -Javascript
+-CSS
+-Bootstrap
+-Material UI
