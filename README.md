@@ -39,3 +39,7 @@ This is the React frontend for the Job Seekers application. It provides the user
 # Credits
 
 -Job Seekers is inspired by LinkedIn.
+
+# Technology
+
+-Javascript
