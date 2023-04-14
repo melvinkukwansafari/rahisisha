@@ -14,6 +14,7 @@ New users will get to weeks free trial before they start paying which will be tr
 -Dashboard for job seekers to view already listed jobs for application
 -Integration with the Ruby on Rails backend.
 
+# Getting started
 # Requirements
 
 -Node.js version: 16.0.0 or higher
@@ -28,7 +29,7 @@ New users will get to weeks free trial before they start paying which will be tr
 
 # Usage
 
--Login or register as a new user.
+-Open the app and land to the Login page or register as a new user(Job seeker) or employer.
 -Use the search bar to search for jobs by category.
 -View job details and apply for jobs.
 
@@ -44,6 +45,7 @@ New users will get to weeks free trial before they start paying which will be tr
 
 # Technology
 
+-ReactJS
 -Javascript
 -CSS
 -Bootstrap
