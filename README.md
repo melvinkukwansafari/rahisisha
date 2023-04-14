@@ -44,3 +44,6 @@ New users will get to weeks free trial before they start paying which will be tr
 -CSS
 -Bootstrap
 -Material UI
+
+# License
+Approval is licensed under Moringa School
