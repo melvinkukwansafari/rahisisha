@@ -14,12 +14,6 @@ New users will get to weeks free trial before they start paying which will be tr
 -Dashboard for job seekers to view already listed jobs for application
 -Integration with the Ruby on Rails backend.
 
-# Getting started
-# Requirements
-
--Node.js version: 16.0.0 or higher
--React version: 17.0.0 or higher
-
 # Setup
 
 -Clone the repository to your local machine.
