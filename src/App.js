@@ -8,9 +8,10 @@ function App() {
   return (
     <div>
       
-        <Routes>
-        <Comments />
-        </Routes>
+        
+      <Routes>
+        <Route path="/" element={<Comments />} />
+      </Routes>
         
     </div>
   );
