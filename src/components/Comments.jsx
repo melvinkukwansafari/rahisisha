@@ -13,21 +13,17 @@ function CommentComponent(props) {
   }, [props.postCode, props.userCode]);
 
   return (
-    <div className="container">
-      <div className="row">
-        {comments.map(comment => (
-          <div className="col-12" key={comment.commentCode}>
-            <div className="card mb-3 border-primary">
-              <div className="card-body">
-                <p className="card-text text-secondary">{comment.content}</p>
-                <p className="card-text font-weight-bold">{comment.userCode}</p>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
+    <div>
+      <h2>Comments</h2>
+      {comments.map((comment) => (
+        <div key={comment.commentCode}>
+          <p>{comment.content}</p>
+          <p>{comment.userCode}</p>
+        </div>
+      ))}
     </div>
   );
 }
 
 export default CommentComponent;
+
