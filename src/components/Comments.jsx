@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 
 function CommentComponent(props) {
   const [comments, setComments] = useState([]);
 
   useEffect(() => {
     async function fetchComments() {
-      const result = await axios.get(`/comment/${props.postCode}/post_comments?user_code=${props.userCode}`);
-      setComments(result.data);
+      const response = await fetch(`/comment/${props.postCode}/post_comments?user_code=${props.userCode}`);
+      const data = await response.json();
+      setComments(data);
     }
     fetchComments();
   }, [props.postCode, props.userCode]);
@@ -26,4 +26,5 @@ function CommentComponent(props) {
 }
 
 export default CommentComponent;
+
 
